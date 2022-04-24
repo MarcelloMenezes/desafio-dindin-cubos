@@ -1,0 +1,10 @@
+main {
+    height: 100vh;
+    background: var(--background-gradient-main);
+}
+
+.container {
+    background-color: var(--background-color);
+    border-radius: 60px 60px 0px 0px;
+    height: 83vh;
+}

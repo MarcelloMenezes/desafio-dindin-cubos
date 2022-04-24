@@ -1,0 +1,73 @@
+.container-card {
+    width: 935px;
+}
+
+.container-card-info, .container-resume-usuario {
+    background-color: var(--card-background-color);
+    box-shadow: var(--shadow-color);
+    border-radius: 10px;
+}
+
+.container-card-info, .container-card-valores {
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    text-align: center;
+    align-items: center;
+    height: 62px;
+}
+
+.container-card-valores {
+    position: relative;
+}
+
+.btn-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-editar {
+    margin-right: 10px;
+}
+
+.triagulo{
+    color: var(--triangulo-color);
+}
+
+.card-apagar {
+    background-color: var(--background-deletar);
+    position: absolute;
+    top: 38px;
+    right: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.card-apagar p {
+    margin-bottom: 2px;
+}
+
+.btn-apagar-sim, .btn-apagar-nao {
+    color: var(--color);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn-apagar-sim {
+    background-color: var(--background-sim) ;
+}
+
+.btn-apagar-nao {
+    background-color: var(--background-nao);
+}
+
+.btn-apagar-nao:hover {
+    --background-nao: rgba(255, 87, 107, 0.8)
+}
+
+.btn-apagar-sim:hover {
+    --background-sim: rgba(58, 159, 241, 0.8);
+}

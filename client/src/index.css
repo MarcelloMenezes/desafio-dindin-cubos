@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  --background-color: rgb(255, 255, 255);
+  --background-deletar: rgb(228, 242, 253);
+  --background-sim: rgb(58, 159, 241);
+  --background-nao: rgb(255, 87, 107);
+  --background-modal: rgba(61, 61, 61, 0.48);
+  --card-background-color: rgb(250, 250, 250);
+  --background-image: linear-gradient(180deg, rgba(5, 237, 227, 0.5) 0%, rgba(100, 95, 251, 0.5) 100%, rgba(100, 95, 251, 0.5) 100%), url('./assets/background.png');
+  --background-gradient-main: linear-gradient(90.23deg, rgb(5, 237, 227) 0.02%, rgb(100, 95, 251) 99.63%);
+  --background-bottom: rgb(121, 120, 217);
+  --color: rgb(255, 255, 255);
+  --triangulo-color: rgb(0, 0, 255);
+  --icon-color: rgb(116, 84, 179);
+  --entrada-color: rgb(100, 95, 251);
+  --saida-color:  rgb(250, 140, 16);
+  --saldo-color: rgb(59, 160, 242);
+  --form-color: rgb(121, 120, 217);
+  --bottom-cor:rgb(185, 185, 185);
+  --label-color: rgb(72, 72, 72);
+  --input-border-color: rgb(85, 85, 85);
+  --border-bottom: 1px solid rgb(224, 224, 224);
+  --shadow-color: 0px 2px 11px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--label-color);
+}
+
+input {
+  background-color: var(--background-color);
+  border: 1px solid var(--input-border-color);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  height: 35px;
+  width: 300px;
+}
+
+select {
+  height: 32px;
+}
+
+button {
+  background: var(--background-bottom);
+  color: var(--color);
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+header,
+.signIn,
+.signUp,
+.container {
+  padding: 30px 80px;
+}
+
+.signIn,
+.signUp {
+  background-image: var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Rubik';
+  font-style: normal;
+  width: 100vw;
+  height: 100vh;
+}
+
+.linha-horizontal-bottom {
+  border-bottom: var(--border-bottom);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
+}

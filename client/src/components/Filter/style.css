@@ -1,0 +1,14 @@
+.filtrar h3 {
+    background-color: var(--background-color);
+    box-shadow: var(--shadow-color);
+    border-radius: 10px;
+    width: 100px;
+    margin-bottom: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.container-icon {
+    color: var(--form-color);
+    margin-right: 8px;
+}

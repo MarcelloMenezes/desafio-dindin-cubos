@@ -1,0 +1,36 @@
+.container-resume {
+    margin: 60px 0px 0px 30px;
+}
+
+.container-resume-usuario, .container-resume button {
+    width: 240px;
+}
+
+.container-resume-usuario {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.container-resume-usuario h2 {
+    margin-bottom: 20px;
+}
+
+.container-resume-usuario-saida {
+    margin: 5px 0 12px 0;
+}
+
+.container-resume-usuario-saldo {
+    margin-top: 12px;
+}
+
+.cor-entrada {
+    color: var(--entrada-color);
+}
+
+.cor-saida {
+    color: var(--saida-color);
+}
+
+.cor-saldo {
+    color: var(--saldo-color);
+}

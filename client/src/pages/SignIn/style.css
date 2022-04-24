@@ -1,0 +1,53 @@
+.signIn-card h1,
+.signIn-card p {
+    color: var(--color);
+}
+
+.nome-financas {
+    color: var(--icon-color);
+}
+
+.signIn-card-informacoes,
+.signIn-card-form {
+    height: 70vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signIn-card-informacoes-dindin {
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.signIn-card-informacoes-dindin h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+}
+
+.signIn-card-informacoes-dindin p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 30px 0;
+}
+
+.signIn-card-form form {
+    padding: 25px;
+}
+
+.signIn-card-form h2 {
+    text-align: center;
+    color: var(--form-color);
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.signIn-card-form input {
+    margin-bottom: 30px;
+}

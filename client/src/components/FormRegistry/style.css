@@ -1,0 +1,43 @@
+.modal{
+    background-color: var(--background-modal);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    z-index: 1;
+}
+
+.modal-editar-adicionar {
+    background-color: var(--background-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    height: 460px;
+    width: 400px;
+    padding: 50px;
+}
+
+.modal-registro label {
+    margin-bottom: 5px;
+}
+
+.modal-registro input, .modal-registro select {
+    margin-bottom: 7px;
+}
+
+.btn-entrada, .btn-saida {
+    max-width: 150px;
+    margin: 20px 0;
+}
+
+.btn-saida {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.btn-entrada {
+    border-radius: 8px 0px 0px 8px;
+}

@@ -1,0 +1,52 @@
+.header-usuario {
+    margin: 0 10px;
+    color: var(--color)
+}
+
+.modal-editar {
+    background-color: var(--background-modal);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    z-index: 1;
+}
+
+.modal-editar-usuario {
+    background-color: var(--background-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    height: 450px;
+    width: 400px;
+    padding: 50px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 20px
+}
+
+.modal-editar-usuario h2 {
+    margin-bottom: 20px;
+}
+
+.modal-editar-usuario label {
+    margin-bottom: 5px;
+}
+
+.modal-editar-usuario input {
+    margin-bottom: 10px;
+}
+
+.modal-btn-confirmar {
+    margin: 10px auto;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
